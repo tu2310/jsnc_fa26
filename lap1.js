@@ -24,3 +24,29 @@ function sayHello(name){
 sayHello("An");
 sayHello("Tú");
 sayHello("Nam");
+//bai 5
+const result = sum(10, 20);
+function sum(a,b){
+    return a+b;
+}
+console.log("tổng:",result)
+//bai 6
+function calculateTotal(price, quantity) {
+    return price * quantity;
+}
+
+const total = calculateTotal(50000, 4);
+
+console.log("giá tiền:",total);
+//bai 7
+const math = 8;
+const english = 7;
+const javascript = 9;
+
+function calculateAverage(math, english, javascript) {
+    return (math + english + javascript) / 3;
+}
+
+const average = calculateAverage(8, 7, 9);
+
+console.log("Điểm trung bình:", average);
