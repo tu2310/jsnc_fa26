@@ -1,7 +1,7 @@
 //bai 1234
 axios.get('http://localhost:3000/products').then((res) => {
   console.log("thành công", res.data);
-
+  
   document.getElementById("product-list").innerHTML = res.data.map((item,index) => {
     return `
       <tr class="hover:bg-gray-50">
@@ -28,4 +28,4 @@ axios.get('http://localhost:3000/products').then((res) => {
       </tr>
     `;
   }).join("");
-});
+}); 
